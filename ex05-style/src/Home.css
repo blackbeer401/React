@@ -1,0 +1,10 @@
+/* 타입선택자를 통해 스타일을적용해보자 */
+
+h2{
+    background-color: yellow;
+}
+/* 권장! 클래스 선택자를 통해 스타일 적용을 권장 */
+.aa{
+    color: orange;
+}
+

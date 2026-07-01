@@ -1,0 +1,25 @@
+// $memu-text-color:#94e8f3
+
+//   계층 구조오 요소선택 및 스타일적용
+
+.menu{
+    ul{
+        list-style: none;
+        border-top: 1px solid red;
+        border-bottom: 1px solid red;
+
+        li{
+            display: inline-block;
+            a{
+                display: block;
+                padding: 0.5rem 1rem;
+                text-decoration: none;
+                // 이 중괄호 영역 안에서 본인을 지칭하는 기호$ 
+                &:hover{
+                    text-decoration: under;
+                    // color: $memu-text-color;
+                }
+            }
+        }
+    }
+}
